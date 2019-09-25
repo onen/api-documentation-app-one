@@ -19,8 +19,9 @@ Documentação aberta para a integração One
 ---
 ## Listagem de filmes
 
-**Method**: GET
-**Content Type**: application/json
+- **Uri**: */api/v1/filmes*
+- **Method**: GET
+- **Content Type**: application/json
 
 ```json
 {
@@ -40,22 +41,17 @@ Documentação aberta para a integração One
 }
 ```
 ---
-## Listagem de filmes
+## Detalhes de filmes
 
-**Method**: GET
-**Content Type**: application/json
+- **Uri**: */api/v1/filme/{filmeSlug}/detahes*
+- **Method**: GET
+- **Content Type**: application/json
 
 ```json
 {
   "data":[
     {
-      "nome": "Abigail e a Cidade Proibida",
-      "slug": "abigail-e-a-cidade-proibida",
-      "genero": "Aventura \/ Ação \/ Fantasia",
-      "classificacao": 12,
-      "pre_estreia": true,
-      "capa_src": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg",
-      "estreia": false
+
     }
   ],
   "status": "success",
