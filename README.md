@@ -33,8 +33,6 @@ Documentação aberta para a integração One
 
 **Query Parâmeters**
 
-- **estado**: Sigla dos estados ex (SC, SP, RS);
-
 - **cidades**: Utiliza slug do nome da cidade:
  - Slug de cidades suportadas:
   - `arapongas`;
