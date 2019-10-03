@@ -87,3 +87,27 @@ Documentação aberta para a integração One
 }
 ```
 ---
+
+## Sessões Filmes
+
+- **Uri**: */api/v1/filme/{filmeSlug}/sessao[/{cinema-slug}]*
+- **Method**: GET
+- **Content Type**: application/json
+
+```json
+{
+ "data": 
+ [
+   {
+    "2019-10-03": 
+    [
+     {
+      
+     }
+    ]
+   }
+ ],
+ "status": "success",
+ "messagem": "",
+}
+```
