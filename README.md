@@ -72,11 +72,18 @@ Documentação aberta para a integração One
 
 ```json
 {
-  "data":[
+  "data":
     {
-
-    }
-  ],
+      "urlVideo": "https://youtu.be/Zs0hLEHAoSs",
+      "capa_src": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg",
+      "genero": "Aventura \/ Ação \/ Fantasia",
+      "nome": "Abigail e a Cidade Proibida",
+      "tempoDuracao": 169,
+      "descricao": "Hebe Camargo (Andréa Beltrão) se consagrou como uma das maiores apresentadoras da televisão brasileira. Nos anos 80, durante o processo de redemocratização do país",
+      "elenco": "Danton Mello, Gabriel Braga Nunes, Otávio Augusto, Daniel Boaventura, Andréa Beltrão",
+      "distribuidora": "Warner Bros",
+      "diretor": "Mauricio Farias",
+    },
   "status": "success",
   "messages": null,
 }
