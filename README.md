@@ -152,14 +152,48 @@ Documentação aberta para a integração One
 - **Method**: GET
 - **Content Type**: application/json
 
-
 ```json
 {
-  "data": "2019-09-16",
-  "sessao": "19:00",
-  "sala": "Sala 1",
-  "cinema": "Cine Gracher Havan Arapongas",
-  "filme": "Angry Birds O Filme 2",
-  "dataHoraCompra": "2019-09-03 14:30:00"
+ "data":
+   {
+    "dataFilme": "2019-09-16",
+    "sessaoFilme": "19:00",
+    "pedidoId": "1111111",
+    "sala": "Sala 1",
+    "audio": "DUB",
+    "tela": "2D",
+    "cinema": "Cine Gracher Havan Arapongas",
+    "filme": "Angry Birds O Filme 2",
+    "dataHoraCompra": "2019-09-03 14:30:00",
+    "capa": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg"
+   },
+  "status": "success",
+  "messages": ""
 }
 ```
+---
+
+## Listagem de ingressos
+
+- **Uri**: */api/v1/minha-conta/pedido/detalhes/{pedidoId}*
+- **Method**: GET
+- **Content Type**: application/json
+
+```json
+ "data": 
+   [
+     {
+       "ingressoId": 1616161,
+       "tipoIngresso": "Inteira",
+       "nome": "José Maria",
+       "email": "josemaria@maria.com.br",
+       "cpf": "10120104903",
+       "poltrona": "15B",
+       "barCode": "1111111111111111111111111"
+     }
+   ]
+ "status": "success",
+ "messages": ""
+```
+
+
