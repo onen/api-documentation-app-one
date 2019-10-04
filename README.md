@@ -136,3 +136,18 @@ Documentação aberta para a integração One
  "messages": ""
 }
 ```
+---
+
+## Minha conta
+
+**Para conseguir acessar estas actions você precisa estar autenticado!**
+
+*Aqui vai ter o link para o end-point de autenticação*
+
+---
+
+## Listagem de pedidos
+
+- **Uri**: */api/v1/minha-conta/pedidos/cinema*
+- **Method**: GET
+- **Content Type**: application/json
