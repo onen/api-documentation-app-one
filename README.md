@@ -93,7 +93,7 @@ Documentação aberta para a integração One
 - **Uri's**: 
   
   Para todos os cinemas
-   - */api/v1/filme/{filmeSlug}/sessao[/{cinema-slug}]*
+   - */api/v1/filme/{filmeSlug}/sessao*
    
   Para cinemas específicos
    - */api/v1/filme/{filmeSlug}/sessao/{cinema-slug}*
@@ -133,6 +133,6 @@ Documentação aberta para a integração One
    }
   ],
  "status": "success",
- "messagem": ""
+ "messages": ""
 }
 ```
