@@ -189,11 +189,27 @@ Documentação aberta para a integração One
        "email": "josemaria@maria.com.br",
        "cpf": "10120104903",
        "poltrona": "15B",
-       "barCode": "1111111111111111111111111"
+       "barCode": 1111111111111111111111111
      }
    ]
  "status": "success",
  "messages": ""
+```
+---
+
+## Edição de ingresso
+
+- **Uri**: */api/v1/minha-conta/pedido/ingresso*
+- **Method**: POST
+- **Content Type**: application/json
+
+```json
+ {
+   "id": 111111111111111111111111,
+   "nome": "Maria Aurorra",
+   "email": "maria@ma.com.br",
+   "cpf": "101012121201"
+ }
 ```
 
 
