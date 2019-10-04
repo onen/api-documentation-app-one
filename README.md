@@ -151,3 +151,15 @@ Documentação aberta para a integração One
 - **Uri**: */api/v1/minha-conta/pedidos/cinema*
 - **Method**: GET
 - **Content Type**: application/json
+
+
+```json
+{
+  "data": "2019-09-16",
+  "sessao": "19:00",
+  "sala": "Sala 1",
+  "cinema": "Cine Gracher Havan Arapongas",
+  "filme": "Angry Birds O Filme 2",
+  "dataHoraCompra": "2019-09-03 14:30:00"
+}
+```
