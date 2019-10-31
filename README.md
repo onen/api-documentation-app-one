@@ -54,7 +54,8 @@ Documentação aberta para a integração One
       "classificacao": 12,
       "pre_estreia": true,
       "capa_src": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg",
-      "estreia": false
+      "estreia": false,
+      "data_estreia": "2019-10-24"
     }
   ],
   "status": "success",
