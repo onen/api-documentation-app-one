@@ -56,7 +56,7 @@ Documentação aberta para a integração One
       "capa_src": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg",
       "estreia": false,
       "data_estreia": "2019-10-24",
-      "data_pre_estreia: "2019-09-04"
+      "data_pre_estreia": "2019-09-04"
     }
   ],
   "status": "success",
