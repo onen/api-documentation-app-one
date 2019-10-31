@@ -30,7 +30,7 @@ Documentação aberta para a integração One
 **Suporte para uma unica cidade**
 
 `/api/v1/filmes/em-cartaz?cidades=brusque`
-
+`
 **Query Parâmeters**
 
 - **cidades**: Utiliza slug do nome da cidade:
@@ -43,6 +43,17 @@ Documentação aberta para a integração One
   - `porto-belo`;
   - `porto-uniao`;
   - `sao-bento-do-sul`;
+
+- **cinemaSlug**: Utiliza slug do nome do cinema:
+- Slug dos cinemas:
+ - `cine-gracher-havan-brusque`
+ - `cine-gracher-shopping-brusque`
+ - `cine-gracher-havan-pato-branco`
+ - `cine-gracher-havan-arapongas`
+ - `cine-gracher-havan-indaial`
+ - `cine-gracher-havan-joacaba`
+ - `cine-gracher-havan-porto-belo`
+ - `cine-gracher-havan-sao-bento-do-sul`
 
 ```json
 {
