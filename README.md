@@ -88,6 +88,7 @@ Documentação aberta para a integração One
       "urlVideo": "https://youtu.be/Zs0hLEHAoSs",
       "capa_src": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg",
       "genero": "Aventura \/ Ação \/ Fantasia",
+      "classificao": 16,
       "nome": "Abigail e a Cidade Proibida",
       "tempoDuracao": 169,
       "descricao": "Hebe Camargo (Andréa Beltrão) se consagrou como uma das maiores apresentadoras da televisão brasileira. Nos anos 80, durante o processo de redemocratização do país",
