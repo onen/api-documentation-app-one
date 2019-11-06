@@ -104,7 +104,10 @@ Documentação aberta para a integração One
 
 ## Sessões Filmes
 
-- **Uri's**: 
+- **Uri's**:
+
+  Para todas as requisições é necessário a data das exibições
+  - */api/v1/filme/{filmeSlug}/sessao?dataInicio=2019-10-10&dataFim=2019-11-30*
   
   Para todos os cinemas
    - */api/v1/filme/{filmeSlug}/sessao*
