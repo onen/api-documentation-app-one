@@ -171,7 +171,7 @@ Documentação aberta para a integração One
 
 ```json
 {
- "data":
+ "data":[
    {
     "dataFilme": "2019-09-16",
     "sessaoFilme": "19:00",
@@ -183,7 +183,8 @@ Documentação aberta para a integração One
     "filme": "Angry Birds O Filme 2",
     "dataHoraCompra": "2019-09-03 14:30:00",
     "capa": "http:\/\/localhost\/images\/filme\/cb46d7f9855fe1ab735d31e1a4aeac32-99b6ed56.jpg"
-   },
+   }
+  ],
   "status": "success",
   "messages": ""
 }
