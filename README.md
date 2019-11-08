@@ -193,7 +193,7 @@ Documentação aberta para a integração One
 
 ## Listagem de ingressos
 
-- **Uri**: */api/v1/minha-conta/pedido/detalhes/{pedidoId}*
+- **Uri**: */api/v1/minha-conta/pedido/cinema/{pedidoId}/detalhes*
 - **Method**: GET
 - **Content Type**: application/json
 
