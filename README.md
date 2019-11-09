@@ -217,7 +217,10 @@ Documentação aberta para a integração One
 
 ## Edição de ingresso
 
-- **Uri**: */api/v1/minha-conta/pedido/ingresso*
+**pedidoId** - Id do pedido
+**pedidoItemId** - Id do pedido item (id do ingresso)
+
+- **Uri**: */api/v1/minha-conta/pedido/cinema/{pedidoId}/item/{pedidoItemId}/nomear*
 - **Method**: POST
 - **Content Type**: application/json
 
