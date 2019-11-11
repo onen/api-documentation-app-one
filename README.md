@@ -155,11 +155,24 @@ Documentação aberta para a integração One
 ```
 ---
 
-## Minha conta
+## Minha conta (OAuth)
 
 **Para conseguir acessar estas actions você precisa estar autenticado!**
 
-*Aqui vai ter o link para o end-point de autenticação*
+- **Uri**: */oauth/access_token*
+- **Method**: POST
+- **Content Type**: application/x-www-form-urlencoded
+
+body:
+
+- **username**: 'email@email.com'
+- **password**: 'senhaDoUsuario'
+---
+- **scope**: 'email'
+- **grant_type**: 'password'
+---
+- **client_id**: 'client-para-do-app'
+- **client_secret**: 'client-secret-do-app'
 
 ---
 
