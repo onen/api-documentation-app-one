@@ -152,7 +152,7 @@ Documentação aberta para a integração One
 ```
 ---
 
-## Minha conta (OAuth)
+## Minha conta (OAuth) :ok:
 
 **Para conseguir acessar estas actions você precisa estar autenticado!**
 
