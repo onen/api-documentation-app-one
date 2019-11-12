@@ -17,9 +17,9 @@ Documentação aberta para a integração One
 }
 ```
 ---
-## Listagem de filmes
+## Listagem de filmes em cartaz :ok:
 
-- **Uri**: */api/v1/filmes*
+- **Uri**: */api/v1/filmes/em-cartaz*
 - **Method**: GET
 - **Content Type**: application/json
 
@@ -75,7 +75,7 @@ Documentação aberta para a integração One
 }
 ```
 ---
-## Detalhes de filmes
+## Detalhes de filmes :ok:
 
 - **Uri**: */api/v1/filme/{filmeSlug}/detalhes*
 - **Method**: GET
@@ -102,7 +102,7 @@ Documentação aberta para a integração One
 ```
 ---
 
-## Sessões Filmes
+## Sessões Filmes :ok:
 
 - **Uri's**:
   
