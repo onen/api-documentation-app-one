@@ -173,7 +173,7 @@ body:
 
 ---
 
-## Listagem de pedidos
+## Listagem de pedidos :ok:
 
 - **Uri**: */api/v1/minha-conta/pedidos/cinema*
 - **Method**: GET
@@ -201,7 +201,7 @@ body:
 ```
 ---
 
-## Listagem de ingressos
+## Listagem de ingressos :ok:
 
 - **Uri**: */api/v1/minha-conta/pedido/cinema/{pedidoId}/detalhes*
 - **Method**: GET
@@ -225,7 +225,7 @@ body:
 ```
 ---
 
-## Edição de ingresso
+## Edição de ingresso :ok:
 
 **pedidoId** - Id do pedido
 **pedidoItemId** - Id do pedido item (id do ingresso)
