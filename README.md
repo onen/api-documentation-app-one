@@ -30,6 +30,10 @@ Documentação aberta para a integração One
 **Suporte para uma unica cidade**
 
 `/api/v1/filmes/em-cartaz?cidades=brusque`
+
+**Suporte para em breve**
+
+`/api/v1/filmes/em-cartaz?embreve=true`
 `
 **Query Parâmeters**
 
