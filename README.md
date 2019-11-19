@@ -164,7 +164,7 @@ Documentação aberta para a integração One
 ## Link para sessão na One Ticket :ok:
 
 Ao clicar em uma sessão no aplicativo, o seguinte link deverá ser aberto:
-`https://cinema.oneticket.com.br/filme/{filmeSlug}s={sessaoId}&utm_source=oneticket&utm_medium=mobile&utm_campaign=app_launch`
+```https://cinema.oneticket.com.br/filme/{filmeSlug}s={sessaoId}&utm_source=oneticket&utm_medium=mobile&utm_campaign=app_launch```
 
 **Parâmetros**
 * `filmeSlug` (route param): _slug_ do filme
