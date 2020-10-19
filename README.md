@@ -31,6 +31,10 @@ Documentação aberta para a integração One
 
 `/api/v1/filmes/em-cartaz?cidades=brusque`
 
+**Suporte para um unico cinema**
+
+`/api/v1/filmes/em-cartaz?cinema={slug-do-cinema}`
+
 **Suporte para em breve**
 
 `/api/v1/filmes/em-cartaz?embreve=true`
@@ -48,7 +52,7 @@ Documentação aberta para a integração One
   - `porto-uniao`;
   - `sao-bento-do-sul`;
 
-- **cinemaSlug**: Utiliza slug do nome do cinema:
+- **cinema**: Utiliza slug do nome do cinema:
 - Slug dos cinemas:
  - `cine-gracher-havan-brusque`
  - `cine-gracher-shopping-brusque`
